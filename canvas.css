@@ -15,7 +15,7 @@ button {
     border: 1px solid #888; 
     background: #f7f7f5; 
     font: inherit; 
-    cursor: pointer; 
+    cursor: pointer;  
 }
 .controls { 
     display: flex; 
@@ -23,7 +23,9 @@ button {
     gap: 10px;
  }
 #canvas { 
-    display: block;
+    align-items: center; 
+    justify-content: center;
+    display: inline-block;
     width: 300px;
     height: 300px; 
     margin-top: 24px;
