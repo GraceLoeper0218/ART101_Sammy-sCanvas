@@ -24,7 +24,7 @@ button {
  }
 #canvas { 
     align-items: center; 
-     display: block;
+    display: block;
     width: 300px;
     height: 300px; 
     margin-top: 24px;
