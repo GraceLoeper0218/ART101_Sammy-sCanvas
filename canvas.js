@@ -7,5 +7,5 @@ $("#canvas").click(function (event) {
     let mark = $("<div class='mark'></div>");
     mark.css("left", x);
     mark.css("top", y);
-    $("#stage").append(mark);
+    $("#canvas").append(mark);
 });
