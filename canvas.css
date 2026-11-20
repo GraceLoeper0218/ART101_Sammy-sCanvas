@@ -19,6 +19,8 @@ button {
 }
 #canvas { 
     justify-content: center; 
+     display: flex;
+
     width: 300px;
     height: 300px; 
     margin-top: 24px;
