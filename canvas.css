@@ -5,7 +5,7 @@ h1 {background-color: rgb(255, 217, 0); color: black; font-weight: normal; text-
 #banner{ 
     height: 100px; 
 }
-#canvas { position: relative; align-items: flex-start; width: 300px; height: 300px; margin-top: 24px; background: #f7f7f5; outline: 1px solid #aaa; overflow: hidden; }
+#canvas { position: relative;  width: 300px; height: 300px; margin-top: 24px; background: #f7f7f5; outline: 1px solid #aaa; overflow: hidden; }
 
 /* Shift back by half the mark's own size to center it on the coordinates. */
 .mark { position: absolute; width: 20px; height: 20px; border: 1px solid #555; border-radius: 50%; background: #aaa; transform: translate(-50%, -50%); }
