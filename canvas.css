@@ -31,7 +31,11 @@ button {
     outline: 1px solid #aaa; 
     overflow: hidden;
      }
-
+#content {
+     align-items: center;
+     display: flex;
+     position: relative; 
+}
 /* Shift back by half the mark's own size to center it on the coordinates. */
 .mark { 
     position: absolute;
