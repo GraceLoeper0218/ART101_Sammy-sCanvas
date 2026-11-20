@@ -1,14 +1,43 @@
 HTML {background-color: skyblue;}
 
-h1 {background-color: rgb(255, 217, 0); color: black; font-weight: normal; text-align: center;}
+h1 {
+    background-color: rgb(255, 217, 0); 
+    color: black; 
+    font-weight: normal; 
+    text-align: center;
+}
 
 #banner{ 
     height: 100px; 
 }
-button { padding: 10px 16px; border: 1px solid #888; background: #f7f7f5; font: inherit; cursor: pointer; }
-#canvas { justify-content: center; width: 300px; height: 300px; margin-top: 24px; background: #f7f7f5; outline: 1px solid #aaa; overflow: hidden; }
+button { 
+    padding: 10px 16px; 
+    border: 1px solid #888; 
+    background: #f7f7f5; 
+    font: inherit; 
+    cursor: pointer; 
+}
+#canvas { 
+    justify-content: center; 
+    width: 300px;
+    height: 300px; 
+    margin-top: 24px;
+    background: #f7f7f5;
+    outline: 1px solid #aaa; 
+    overflow: hidden;
+     }
 
 /* Shift back by half the mark's own size to center it on the coordinates. */
-.mark { position: absolute; width: 20px; height: 20px; border: 1px solid #555; border-radius: 50%; background: #aaa; transform: translate(-50%, -50%); }
+.mark { 
+    position: absolute;
+     width: 20px;
+      height: 20px; 
+      border: 1px solid #555; 
+      border-radius: 50%; 
+      background: #aaa; 
+      transform: translate(-50%, -50%); 
+    }
 /* Marks do not intercept later pointer events. */
-.mark { pointer-events: none; }
+.mark { 
+    pointer-events: none;
+ }
