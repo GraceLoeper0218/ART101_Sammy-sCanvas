@@ -36,6 +36,20 @@ button {
      display: flex;
      position: relative; 
 }
+#sectionleft {
+display: block;
+    width: 300px;
+    height: 300px; 
+    color: blue;
+}
+#sectionright {
+display: block;
+    width: 300px;
+    height: 300px; 
+    color: blue;
+}
+
+
 /* Shift back by half the mark's own size to center it on the coordinates. */
 .mark { 
     position: absolute;
