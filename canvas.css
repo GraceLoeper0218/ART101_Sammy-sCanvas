@@ -38,6 +38,7 @@ button {
      display: flex;
      position: relative; 
      height: 100%;
+      background-color: grey;
 }
 #sectionleft {
 display: block;
