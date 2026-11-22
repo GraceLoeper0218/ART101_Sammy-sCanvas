@@ -35,7 +35,7 @@ button {
      align-items: center;
      display: flex;
      position: relative; 
-     height: 50%;
+     height: 100%;
 }
 #sectionleft {
 display: block;
