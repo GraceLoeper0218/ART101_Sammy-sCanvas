@@ -36,7 +36,8 @@ button {
     outline: 1px solid #aaa; 
     overflow: hidden;
     padding: 30px;
-    justify-content: center;
+      position: absolute;
+
      }
 #content {
      justify-content: center;
@@ -46,6 +47,7 @@ button {
       background-color: rgba(216, 243, 44, 0.574);
     padding: 30px;
     border-radius: 10px;
+    position: relative;
 }
 #sectionleft {
 display: block;
