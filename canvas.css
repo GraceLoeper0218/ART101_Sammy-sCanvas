@@ -1,8 +1,7 @@
 HTML {background-color: skyblue;}
 body {
     background-image: url("images/background.jpg");
-    display: flex; 
-    flex-wrap: wrap; 
+
 }
 h1 {
     background-color: rgb(255, 217, 0); 
