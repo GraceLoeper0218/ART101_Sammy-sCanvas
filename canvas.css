@@ -49,6 +49,13 @@ button {
     border-radius: 10px;
     position: relative;
 }
+#easel {
+    display: block;
+    margin-left: 450px;
+    margin-right: auto;
+    margin-top: -500px;
+    width: 300px;
+}
 #sectionleft {
 display: block;
     width: 300px;
