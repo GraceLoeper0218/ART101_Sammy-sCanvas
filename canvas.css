@@ -1,6 +1,6 @@
 HTML {background-color: skyblue;}
 body {
-    background-image: "images/background.jpg";
+    background-image: url("background.jpeg");
 }
 h1 {
     background-color: rgb(255, 217, 0); 
